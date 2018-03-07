@@ -404,6 +404,10 @@ td {
     border: 0;
 }
 
+.comp-input:focus {
+    outline: none;
+}
+
 @media screen and (min-width: 300px) {
     .nav-name {
         text-align: center;
