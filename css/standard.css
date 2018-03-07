@@ -1,0 +1,591 @@
+.nav-list li {
+    display: inline;
+    list-style: none;
+    font-size: 1.25em;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h3  {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.project-box{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+body {
+    color: #FCEA5D;
+}
+
+.contact-list {
+    padding-left: 0;
+}
+
+.contact-list li {
+    list-style: none;
+    text-align: left;
+}
+
+.footer-text {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+main {
+    /*background-color: #B3B3B5;*/
+    background-image: url("../img/cubicle.jpg");
+    height: 600px;
+}
+
+nav {
+    height: 125px;
+    background-image: url("../img/powdercoat.jpg");
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.main-header {
+    background-color: #646C6C;
+    font-size: 1.5em;
+}
+
+.nav-name {
+    font-size: 1.5em;
+}
+
+.nav-overall {
+    height: 100px;
+    background-color: #646C6C;
+}
+
+
+.subsections {
+    height: 800px;
+    background-color: #AFC9CE;
+}
+
+.footer {
+    background-image: url("../img/carpet.jpg");
+    height: 100px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/office-background.png");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.light-beige-background {
+    background-color: #B2B08B;
+}
+
+.beige-background {
+    background-color: #BDAF8C;
+}
+
+.dark-beige-background {
+    background-color: #846336;
+}
+
+.mac-body {
+    position: relative;
+    height: 350px;
+    width: 350px;
+    background-color: #C4C6C1;
+    border-radius: 15px;
+    top: 169px;
+    border: 1px solid #AAACA7;
+}
+
+.mac-logo h3 {
+    color: black;
+    font-size: .8em;
+    position: absolute;
+    top: 285px;
+    left: 20px;
+}
+.mac-bottom {
+    position: relative;
+    height: 50px;
+    width: 325px;
+    top: 129px;
+    left: 12px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #AAACA7;
+    border-top: 1px solid #AAACA7;
+    border-left: 1px solid #AAACA7;
+    border-right: 1px solid #AAACA7;
+    border-bottom: 1px solid #AAACA7;
+}
+
+.mac-screen-border {
+    position: relative;
+    height: 205px;
+    width: 275px;
+    border: 1px solid #B0B1AC;
+    border-radius: 20px;
+    top: 40px;
+    left: 35px;
+    background-color: #AAACA7;
+}
+
+.mac-screen {
+    position: relative;
+    height: 180px;
+    width: 250px;
+    background-color: #626D6D;
+    border-radius: 20px;
+    top:10px;
+    left: 10px;
+}
+
+.calendar-container {
+    position: absolute;
+    height: 225px;
+    width: 200px;
+    border: 1px solid black;
+    top: 20px;
+    left: 400px;
+    box-sizing: border-box;
+}
+
+.calendar-top {
+    height: 125px;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+.calendar-picture {
+    height: 105px;
+    width:180px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-image: url("../img/skate.jpg");
+}
+
+.calendar-bottom {
+    height: 100px;
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.dates {
+    font-size: 5px;
+}
+
+th {
+    padding-left: 5px;
+}
+
+td {
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.cube-table {
+    background-image: url("../img/formica.jpg");
+    height: 30px;
+    width:100%;
+    position: relative;
+    top: 220px;
+
+}
+
+.mac-disk-drive-border {
+    position: relative;
+    height: 15px;
+    width: 349px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    top: 70px;
+}
+
+.mac-disk-drive {
+    height: 13px;
+    width: 150px;
+    position: relative;
+    background-color: black;
+    left: 155px;
+}
+
+.mug-container {
+    position: absolute;
+    top: 470px;
+}
+
+.mug-body {
+    position: absolute;
+    height: 100px;
+    width:80px;
+    background-color: #A52729;
+    border-radius: 5px;
+}
+
+.mug-logo {
+    color: black;
+    font-size: 1.3em;
+    position: absolute;
+    top: 17px;
+    left:5px;
+    border: 1px solid black;
+    height: 60px;
+    width: 50px;
+}
+
+.mug-handle {
+    position: absolute;
+    height: 70px;
+    width:50px;
+    background-color: #A52729;
+    border-radius: 360px;
+    left: 65px;
+    top: 15px;
+}
+
+.mug-inside {
+    position: absolute;
+    height: 30px;
+    width:20px;
+    background-image: url("../img/cubicle.jpg");
+    border-radius: 360px;
+    left: 80px;
+    top: 35px;
+}
+
+.picture-frame-container {
+    height: 100px;
+    width: 135px;
+    border: 1px solid black;
+    position: absolute;
+    top: 470px;
+    left: 150px;
+    background-color: saddlebrown;
+}
+
+.picture-frame-glass {
+    height: 80px;
+    width: 115px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-image: url("../img/picture_image.jpg");
+}
+
+.whiteboard-frame {
+    position: absolute;
+    height: 280px;
+    width: 320px;
+    background-color: white;
+    top: 40px;
+    left: 100px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.whiteboard-list {
+    color: black;
+    list-style: none;
+    font-family: 'Permanent Marker', cursive;
+    text-align: left;
+    font-size: 1.5em;
+    padding-left:7px;
+}
+
+.fish-tank-container {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 268px;
+    left: 410px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.fish-tank-top {
+    box-sizing: border-box;
+    height: 20px;
+    background-color: transparent;
+}
+
+.fish-tank-bottom {
+    box-sizing: border-box;
+    height: 180px;
+    background-image: url("../img/aquarium.jpg");
+}
+
+.fish-body {
+    height: 25px;
+    width: 40px;
+    border-radius: 30px;
+    background-color: orange;
+    position: absolute;
+}
+
+.fish-eye {
+    height: 5px;
+    width: 5px;
+    background-color: white;
+    position: absolute;
+    border-radius: 180px;
+    top: 10px;
+    left: 5px;
+}
+
+.fish-tail {
+    width: 40px;
+    height: 15px;
+    position: absolute;
+    background-color: orange;
+    left: 15px;
+    top: 5px;
+}
+
+.slat {
+    height: 2px;
+    width: 99%;
+    padding: 0;
+    margin: 1px;
+    border: .5px solid black;
+    background-color: black;
+}
+
+.comp-code {
+    color: #FCEA5D;
+    background-color: transparent;
+}
+
+#punchline {
+    margin-left: 27px;
+}
+
+#fish {
+    position: absolute;
+}
+
+#piggy {
+    background-image: url("../img/pig-latin-prog.jpg");
+    background-size: cover;
+}
+
+#simon {
+    background-image: url("../img/simon-prog.jpg");
+    background-size: cover;
+}
+
+.project-container {
+    height: 250px;
+    width: 300px;
+    background-color: green;
+    margin: 15px;
+}
+
+@media screen and (min-width: 300px) {
+    .nav-name {
+        text-align: center;
+    }
+    ul {
+        text-align: center;
+        top: 5px;
+        font-size: .80em;
+    }
+    main {
+        /*background-color: #B3B3B5;*/
+        background-image: url("../img/cubicle.jpg");
+        height: 500px;
+    }
+    .mac-body {
+        position: relative;
+        height: 350px;
+        width: 350px;
+        background-color: #C4C6C1;
+        border-radius: 15px;
+        top: 69px;
+        left: -10px;
+        border: 1px solid #AAACA7;
+    }
+
+    .mac-bottom {
+        position: relative;
+        height: 50px;
+        width: 325px;
+        top: 129px;
+        left: 12px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color: #AAACA7;
+        border-top: 1px solid #AAACA7;
+        border-left: 1px solid #AAACA7;
+        border-right: 1px solid #AAACA7;
+        border-bottom: 1px solid #AAACA7;
+    }
+    .cube-table {
+        background-image: url("../img/formica.jpg");
+        height: 30px;
+        width:100%;
+        position: relative;
+        top: 120px;
+
+    }
+
+    nav {
+        height: 80px;
+        background-image: url("../img/powdercoat.jpg");
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+}
+
+@media screen and (min-width: 375px) {
+    .nav-name {
+        text-align: center;
+    }
+    ul {
+        text-align: center;
+        top: 0px;
+        font-size: .95em;
+    }
+    .mac-body {
+        position: relative;
+        height: 350px;
+        width: 350px;
+        background-color: #C4C6C1;
+        border-radius: 15px;
+        top: 69px;
+        left: 0;
+        border: 1px solid #AAACA7;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .nav-name {
+        text-align: left;
+    }
+    ul {
+        text-align: right;
+        top: 0;
+        font-size: 1.05em;
+    }
+    .whiteboard-frame {
+        position: absolute;
+        height: 280px;
+        width: 320px;
+        background-color: white;
+        top: 40px;
+        left: 135px;
+        border-radius: 10px;
+    }
+
+    .mug-container {
+        position: absolute;
+        top: 370px;
+        left: 200px;
+    }
+
+    .picture-frame-container {
+        height: 100px;
+        width: 135px;
+        border: 1px solid black;
+        position: absolute;
+        top: 370px;
+        left: 350px;
+        background-color: saddlebrown;
+    }
+    .project-container {
+        height: 250px;
+        width: 300px;
+        background-color: green;
+    }
+    nav {
+        height: 129px;
+        background-image: url("../img/powdercoat.jpg");
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .whiteboard-frame {
+        position: absolute;
+        height: 280px;
+        width: 320px;
+        background-color: white;
+        top: 40px;
+        left: 60px;
+        border-radius: 10px;
+    }
+
+    .mug-container {
+        position: absolute;
+        top: 370px;
+        left: 100px;
+    }
+
+    .picture-frame-container {
+        height: 100px;
+        width: 135px;
+        border: 1px solid black;
+        position: absolute;
+        top: 370px;
+        left: 250px;
+        background-color: saddlebrown;
+    }
+    nav {
+        height: 60px;
+        background-image: url("../img/powdercoat.jpg");
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .whiteboard-frame {
+        position: absolute;
+        height: 280px;
+        width: 320px;
+        background-color: white;
+        top: 40px;
+        left: 0px;
+        border-radius: 10px;
+    }
+
+    .calendar-container {
+        position: absolute;
+        height: 225px;
+        width: 200px;
+        border: 1px solid black;
+        top: 20px;
+        left: 340px;
+        box-sizing: border-box;
+    }
+    nav {
+        height: 50px;
+        background-image: url("../img/powdercoat.jpg");
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+}
