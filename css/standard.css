@@ -399,6 +399,11 @@ td {
     margin: 15px;
 }
 
+.comp-input {
+    background-color: transparent;
+    border: 0;
+}
+
 @media screen and (min-width: 300px) {
     .nav-name {
         text-align: center;

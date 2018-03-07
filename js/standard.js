@@ -1,17 +1,34 @@
 $(document).ready(function() {
-    var blink = document.getElementById('code-text');
+    const blink = document.getElementById('code-text');
     setInterval(function() {
         blink.style.display = (blink.style.display == 'none' ? '' : 'none');
     }, 1000);
 
 });
 
+var i = 0;
+var txt = 'Welcome to my portfolio!';
+var speed = 300;
+
+function typeWriter() {
+
+    if (i < txt.length) {
+        document.getElementById("typing").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+    }
+}
+
+document.getElementById("screen").addEventListener('click', typeWriter);
+
+
+
 
 function myMove() {
-    var elem = document.getElementById("fish");
-    var toppos = 30;
-    var leftpos = 0;
-    var id = setInterval(frame, 100);
+    let elem = document.getElementById("fish");
+    let toppos = 30;
+    let leftpos = 0;
+    let id = setInterval(frame, 100);
     function frame() {
         if (toppos == 100) {
             clearInterval(id);
@@ -26,10 +43,10 @@ function myMove() {
 }
 
 function myMoveBack() {
-    var elem = document.getElementById("fish");
-    var toppos = 100;
-    var leftpos = 70;
-    var id = setInterval(frame, 100);
+    let elem = document.getElementById("fish");
+    let toppos = 100;
+    let leftpos = 70;
+    let id = setInterval(frame, 100);
     function frame() {
         if (toppos == 30) {
             clearInterval(id);
