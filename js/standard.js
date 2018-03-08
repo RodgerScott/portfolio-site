@@ -1,5 +1,6 @@
 const typing = document.getElementById("typing");
 const screen = document.getElementById("screen");
+const loadingMessage = document.getElementById("loading-mess");
 
 let i = 0;
 let txt = '. . . . .';
@@ -22,8 +23,20 @@ const orderEvents = new Promise((resolve, reject) => {
     }
 });
 
-orderEvents.then(typeWriter).then( () => {
-
+orderEvents.then( () => {
+    $(".skills").toggleClass("hide");
+    $(".about").toggleClass("hide");
+    $(".projects").toggleClass("hide");
+    $(".contact").toggleClass("hide");
+}).then(typeWriter).then( () => {
+    setTimeout( () => {
+        $( "#screen" ).addClass("desktop");
+        loadingMessage.innerHTML = "";
+        $(".skills").toggleClass("show");
+        $(".about").toggleClass("show");
+        $(".projects").toggleClass("show");
+        $(".contact").toggleClass("show");
+    }, 5000);
 });
 
 function myMove() {
@@ -61,6 +74,5 @@ function myMoveBack() {
         }
     }
 }
-
 myMoveBack();
 

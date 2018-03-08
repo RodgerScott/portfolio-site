@@ -4,6 +4,14 @@
     font-size: 1.25em;
 }
 
+a:visited {
+    color: #FCEA5D;
+}
+
+a:link {
+    color: #FCEA5D;
+}
+
 
 h1 {
     text-align: center;
@@ -34,6 +42,7 @@ body {
 .contact-list li {
     list-style: none;
     text-align: left;
+    font-size: 1.5em;
 }
 
 .footer-text {
@@ -453,6 +462,42 @@ td {
         background-image: url("../img/powdercoat.jpg");
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
+    }
+
+    .about {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        top: 17px;
+        left: 20px;
+        color: black;
+    }
+
+    .skills {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        top: 17px;
+        left: 190px;
+        color: black;
+    }
+
+    .projects {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        top: 100px;
+        left: 20px;
+        color: black;
+    }
+
+    .contact {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        top: 100px;
+        left: 190px;
+        color: black;
     }
 
 }
