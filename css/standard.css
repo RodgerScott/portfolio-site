@@ -5,13 +5,20 @@
 }
 
 a:visited {
-    color: #FCEA5D;
+    color: #7C4518;
 }
 
 a:link {
-    color: #FCEA5D;
+    color: #7C4518;
 }
 
+.mac-screen a:visited {
+    color: black;
+}
+
+.mac-screen a:link {
+    color: black;
+}
 
 h1 {
     text-align: center;
@@ -32,7 +39,7 @@ h4 {
 }
 
 body {
-    color: #FCEA5D;
+    color: #7C4518;
 }
 
 .contact-list {
@@ -86,6 +93,8 @@ nav {
 .footer {
     background-image: url("../img/carpet.jpg");
     height: 100px;
+    color: white;
+    size: 1.2em;
 }
 
 .parallax {
@@ -164,7 +173,7 @@ nav {
 }
 
 .desktop {
-    background-image: url("../img/rasp-desk.png");
+    background-image: url("../img/pi_white.png");
 }
 
 .calendar-container {
@@ -408,6 +417,7 @@ td {
     top:10px;
     left:10px;
     font-size: 1.25em;
+    color: yellow;
 }
 
 @media screen and (min-width: 300px) {
