@@ -1,28 +1,30 @@
-$(document).ready(function() {
-    const blink = document.getElementById('code-text');
-    setInterval(function() {
-        blink.style.display = (blink.style.display == 'none' ? '' : 'none');
-    }, 1000);
+const typing = document.getElementById("typing");
+const screen = document.getElementById("screen");
 
-});
-
-var i = 0;
-var txt = 'Welcome to my portfolio!';
-var speed = 300;
+let i = 0;
+let txt = '. . . . .';
+let speed = 500;
 
 function typeWriter() {
-
     if (i < txt.length) {
-        document.getElementById("typing").innerHTML += txt.charAt(i);
+        typing.innerHTML += txt.charAt(i);
         i++;
         setTimeout(typeWriter, speed);
     }
 }
 
-document.getElementById("screen").addEventListener('click', typeWriter);
 
+const orderEvents = new Promise((resolve, reject) => {
+    if ($(document).ready) {
+        resolve();
+    } else {
+        reject();
+    }
+});
 
+orderEvents.then(typeWriter).then( () => {
 
+});
 
 function myMove() {
     let elem = document.getElementById("fish");

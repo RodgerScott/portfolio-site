@@ -80,13 +80,9 @@ nav {
 }
 
 .parallax {
-    /* The image used */
+
     background-image: url("../img/office-background.png");
-
-    /* Set a specific height */
     height: 500px;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -156,6 +152,10 @@ nav {
     border-radius: 20px;
     top:10px;
     left: 10px;
+}
+
+.desktop {
+    background-image: url("../img/rasp-desk.png");
 }
 
 .calendar-container {
@@ -369,11 +369,6 @@ td {
     background-color: black;
 }
 
-.comp-code {
-    color: #FCEA5D;
-    background-color: transparent;
-}
-
 #punchline {
     margin-left: 27px;
 }
@@ -399,13 +394,11 @@ td {
     margin: 15px;
 }
 
-.comp-input {
-    background-color: transparent;
-    border: 0;
-}
-
-.comp-input:focus {
-    outline: none;
+.loading-message {
+    position: absolute;
+    top:10px;
+    left:10px;
+    font-size: 1.25em;
 }
 
 @media screen and (min-width: 300px) {
@@ -418,7 +411,6 @@ td {
         font-size: .80em;
     }
     main {
-        /*background-color: #B3B3B5;*/
         background-image: url("../img/cubicle.jpg");
         height: 500px;
     }
