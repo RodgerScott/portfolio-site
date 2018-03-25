@@ -182,7 +182,6 @@ nav {
     height: 225px;
     width: 200px;
     border: 1px solid black;
-    top: 20px;
     left: 400px;
     box-sizing: border-box;
 }
@@ -202,7 +201,7 @@ nav {
 }
 
 .calendar-bottom {
-    height: 100px;
+    height: 120px;
     background-color: white;
     color: black;
     border-bottom: 1px solid black;
@@ -321,11 +320,9 @@ td {
     border: 3px solid black;
 }
 
-.whiteboard-list {
+.whiteboard-text {
     color: black;
-    list-style: none;
     font-family: 'Permanent Marker', cursive;
-    text-align: left;
     font-size: 1.5em;
     padding-left:7px;
 }
@@ -418,9 +415,10 @@ td {
     width: 150px;
     background-image: url("../img/family_portrait.png");
     position: absolute;
-    top: 30px;
-    left: 565px;
+    top: 37px;
+    left: 570px;
     border: 1px solid black;
+    transform: rotate(4deg);
 }
 
 .loading-message {
@@ -440,6 +438,7 @@ td {
 #skills > li {
     display: inline;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 @media screen and (min-width: 300px) {
