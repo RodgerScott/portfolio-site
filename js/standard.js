@@ -3,8 +3,8 @@ const screen = document.getElementById("screen");
 const loadingMessage = document.getElementById("loading-mess");
 
 let i = 0;
-let txt = '. . . .';
-let speed = 300;
+let txt = '. . . . .';
+let speed = 500;
 
 function typeWriter() {
     if (i < txt.length) {
