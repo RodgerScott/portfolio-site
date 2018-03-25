@@ -3,7 +3,7 @@ const screen = document.getElementById("screen");
 const loadingMessage = document.getElementById("loading-mess");
 
 let i = 0;
-let txt = '. . . . .';
+let txt = '. . .';
 let speed = 500;
 
 function typeWriter() {
@@ -36,7 +36,7 @@ orderEvents.then( () => {
         $(".about").toggleClass("show");
         $(".projects").toggleClass("show");
         $(".contact").toggleClass("show");
-    }, 5000);
+    }, 3000);
 });
 
 function myMove() {
