@@ -413,6 +413,16 @@ td {
     margin: 15px;
 }
 
+.family-drawing {
+    height: 200px;
+    width: 150px;
+    background-image: url("../img/family_portrait.png");
+    position: absolute;
+    top: 30px;
+    left: 565px;
+    border: 1px solid black;
+}
+
 .loading-message {
     position: absolute;
     top:10px;
