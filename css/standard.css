@@ -218,6 +218,7 @@ main {
     width: 200px;
     border: 1px solid black;
     left: 400px;
+    top: 20px;
     box-sizing: border-box;
 }
 
