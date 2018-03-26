@@ -63,13 +63,6 @@ main {
     height: 600px;
 }
 
-nav {
-    height: 125px;
-    background-image: url("../img/powdercoat.jpg");
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
 .main-header {
     background-color: #646C6C;
     font-size: 1.5em;
@@ -77,11 +70,6 @@ nav {
 
 .nav-name {
     font-size: 1.5em;
-}
-
-.nav-overall {
-    height: 100px;
-    background-color: #646C6C;
 }
 
 
@@ -175,6 +163,53 @@ nav {
 
 .desktop {
     background-image: url("../img/pi_white.png");
+}
+
+.thumbtack {
+    border-radius: 180px;
+    height: 5px;
+    width: 5px;
+}
+
+.sticky {
+    height: 95px;
+    width: 95px;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+#about-sticky {
+    position: absolute;
+    background-color: lightblue;
+    top: 30px;
+    left: 45px;
+    transform: rotate(3deg);
+}
+
+#projects-sticky {
+    position: absolute;
+    background-color: yellow;
+    top: 15px;
+    left: 185px;
+    transform: rotate(5deg);
+}
+
+#contact-sticky {
+    position: absolute;
+    background-color: lightgreen;
+    top: 170px;
+    left: 25px;
+    transform: rotate(7deg);
+
+}
+
+#skills-sticky {
+    position: absolute;
+    background-color: lightpink;
+    top: 135px;
+    left: 160px;
+    transform: rotate(2deg);
 }
 
 .calendar-container {
@@ -323,8 +358,6 @@ td {
 .whiteboard-text {
     color: black;
     font-family: 'Permanent Marker', cursive;
-    font-size: 1.5em;
-    padding-left:7px;
 }
 
 .fish-tank-container {
@@ -488,13 +521,6 @@ td {
 
     }
 
-    nav {
-        height: 80px;
-        background-image: url("../img/powdercoat.jpg");
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
-
     .about {
         position: absolute;
         height: 50px;
@@ -594,12 +620,6 @@ td {
         width: 300px;
         background-color: green;
     }
-    nav {
-        height: 129px;
-        background-image: url("../img/powdercoat.jpg");
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
 
 }
 
@@ -629,12 +649,6 @@ td {
         left: 250px;
         background-color: saddlebrown;
     }
-    nav {
-        height: 60px;
-        background-image: url("../img/powdercoat.jpg");
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-    }
 
 }
 
@@ -657,12 +671,6 @@ td {
         top: 20px;
         left: 340px;
         box-sizing: border-box;
-    }
-    nav {
-        height: 50px;
-        background-image: url("../img/powdercoat.jpg");
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
     }
 
 }
