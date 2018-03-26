@@ -313,7 +313,7 @@ td {
     position: absolute;
     height: 280px;
     width: 320px;
-    background-color: white;
+    background-image: url("../img/cork_text.jpg");
     top: 40px;
     left: 100px;
     border-radius: 10px;
