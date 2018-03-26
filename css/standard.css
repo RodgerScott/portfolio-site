@@ -1,15 +1,32 @@
-.nav-list li {
-    display: inline;
-    list-style: none;
-    font-size: 1.25em;
-}
-
 a:visited {
     color: #7C4518;
 }
 
 a:link {
     color: #7C4518;
+}
+
+#name {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    background-color: lightgray;
+    width: 180px;
+
+}
+#title {
+    position: absolute;
+    left: 5px;
+    top: 30px;
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    background-color: lightgray;
+    width: 180px;
+
 }
 
 .mac-screen a:visited {
