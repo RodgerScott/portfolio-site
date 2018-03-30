@@ -4,7 +4,7 @@ const loadingMessage = document.getElementById("loading-mess");
 
 let i = 0;
 let txt = '. . .';
-let speed = 500;
+let speed = 250;
 
 function typeWriter() {
     if (i < txt.length) {
@@ -36,7 +36,7 @@ orderEvents.then( () => {
         $(".about").toggleClass("show");
         $(".projects").toggleClass("show");
         $(".contact").toggleClass("show");
-    }, 3000);
+    }, 1500);
 });
 
 function myMove() {
