@@ -23,19 +23,14 @@ const orderEvents = new Promise((resolve, reject) => {
     }
 });
 
-orderEvents.then( () => {
-    $(".skills").toggleClass("hide");
-    $(".about").toggleClass("hide");
-    $(".projects").toggleClass("hide");
-    $(".contact").toggleClass("hide");
-}).then(typeWriter).then( () => {
+orderEvents.then(typeWriter).then( () => {
     setTimeout( () => {
         $( "#screen" ).addClass("desktop");
         loadingMessage.innerHTML = "";
-        $(".skills").toggleClass("show");
-        $(".about").toggleClass("show");
-        $(".projects").toggleClass("show");
-        $(".contact").toggleClass("show");
+        $(".skills").removeClass("hide");
+        $(".about").removeClass("hide");
+        $(".projects").removeClass("hide");
+        $(".contact").removeClass("hide");
     }, 1500);
 });
 

@@ -520,6 +520,10 @@ td {
     margin-bottom: 15px;
 }
 
+.hide {
+    visibility: hidden;
+}
+
 @media screen and (min-width: 300px) {
     .nav-name {
         text-align: center;
