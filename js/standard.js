@@ -41,12 +41,15 @@ orderEvents.then( () => {
 
 function myMove() {
     let elem = document.getElementById("fish");
-    let toppos = 30;
-    let leftpos = 0;
+    let toppos = 50;
+    let leftpos = 20;
     let id = setInterval(frame, 100);
     function frame() {
-        if (toppos == 100) {
+        if (toppos === 120) {
             clearInterval(id);
+            $(".fish-body").removeClass("reflect");
+            $(".fish-eye").removeClass("reflect");
+            $(".fish-tail").removeClass("reflect");
             myMoveBack();
         } else {
             toppos++;
@@ -59,12 +62,15 @@ function myMove() {
 
 function myMoveBack() {
     let elem = document.getElementById("fish");
-    let toppos = 100;
-    let leftpos = 70;
+    let toppos = 120;
+    let leftpos = 90;
     let id = setInterval(frame, 100);
     function frame() {
-        if (toppos == 30) {
+        if (toppos === 50) {
             clearInterval(id);
+            $(".fish-body").addClass("reflect");
+            $(".fish-eye").addClass("reflect");
+            $(".fish-tail").addClass("reflect");
             myMove();
         } else {
             toppos--;
@@ -75,4 +81,5 @@ function myMoveBack() {
     }
 }
 myMoveBack();
+
 

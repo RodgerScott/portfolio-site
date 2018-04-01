@@ -427,6 +427,34 @@ td {
     top: 5px;
 }
 
+.fish-tail-end {
+    width: 10px;
+    height: 25px;
+    position: absolute;
+    background-color: orange;
+    left: 45px;
+    border-radius: 25px;
+}
+
+.fish-fin-move-1 {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    border-top: 7px solid transparent;
+    border-left: 14px solid #FFD260;
+    border-bottom: 7px solid transparent;
+}
+
+.fish-fin-move-2 {
+
+}
+
+.reflect {
+    transform: rotateY(180deg);
+}
+
 .slat {
     height: 2px;
     width: 99%;
