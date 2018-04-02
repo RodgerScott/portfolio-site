@@ -1,38 +1,78 @@
 const typing = document.getElementById("typing");
-const screen = document.getElementById("screen");
 const loadingMessage = document.getElementById("loading-mess");
+const loadDefault = document.getElementById("loadDefault");
 
-let i = 0;
-let txt = '. . .';
-let speed = 250;
+function screenLoading(x) {
+    if (x.matches) {
+        loadDefault.innerText= "Loading PortfoliOS ";
+        let i = 0;
+        let txt = '. . .';
+        let speed = 250;
 
-function typeWriter() {
-    if (i < txt.length) {
-        typing.innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
+        function typeWriter() {
+            if (i < txt.length) {
+                typing.innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+        const orderEvents = new Promise((resolve, reject) => {
+            if ($(document).ready) {
+                resolve();
+            } else {
+                reject();
+            }
+        });
+
+        orderEvents.then(typeWriter).then( () => {
+            setTimeout( () => {
+                $( "#screen" ).removeClass("desktop2");
+                $( "#screen" ).addClass("desktop");
+                loadingMessage.innerHTML = "";
+                $(".skills").removeClass("hide");
+                $(".about").removeClass("hide");
+                $(".projects").removeClass("hide");
+                $(".contact").removeClass("hide");
+            }, 1500);
+        });
+    } else {
+        loadDefault.innerText= "Loading IDE ";
+        let i = 0;
+        let txt = '. . .';
+        let speed = 250;
+
+        function typeWriter() {
+            if (i < txt.length) {
+                typing.innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+        const orderEvents = new Promise((resolve, reject) => {
+            if ($(document).ready) {
+                resolve();
+            } else {
+                reject();
+            }
+        });
+
+        orderEvents.then(typeWriter).then( () => {
+            setTimeout( () => {
+                $( "#screen" ).addClass("desktop2");
+                $(".skills").addClass("hide");
+                $(".about").addClass("hide");
+                $(".projects").addClass("hide");
+                $(".contact").addClass("hide");
+                loadingMessage.innerHTML = "";
+            }, 1500);
+        });
     }
 }
 
+var x = window.matchMedia("(max-width: 767px)");
+screenLoading(x);
+x.addListener(screenLoading);
 
-const orderEvents = new Promise((resolve, reject) => {
-    if ($(document).ready) {
-        resolve();
-    } else {
-        reject();
-    }
-});
-
-orderEvents.then(typeWriter).then( () => {
-    setTimeout( () => {
-        $( "#screen" ).addClass("desktop");
-        loadingMessage.innerHTML = "";
-        $(".skills").removeClass("hide");
-        $(".about").removeClass("hide");
-        $(".projects").removeClass("hide");
-        $(".contact").removeClass("hide");
-    }, 1500);
-});
 
 function myMove() {
     let elem = document.getElementById("fish");

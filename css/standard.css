@@ -182,6 +182,10 @@ main {
     background-image: url("../img/pi_white.png");
 }
 
+.desktop2 {
+    background-image: url("../img/desktop2.jpg");
+}
+
 .thumbtack {
     border-radius: 180px;
     height: 5px;
