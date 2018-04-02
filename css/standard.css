@@ -104,7 +104,6 @@ main {
 }
 
 .parallax {
-
     background-image: url("../img/office-background.png");
     height: 500px;
     background-attachment: fixed;
@@ -176,6 +175,23 @@ main {
     border-radius: 20px;
     top:10px;
     left: 10px;
+}
+
+.mac-disk-drive-border {
+    position: relative;
+    height: 15px;
+    width: 349px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    top: 70px;
+}
+
+.mac-disk-drive {
+    height: 13px;
+    width: 150px;
+    position: relative;
+    background-color: black;
+    left: 155px;
 }
 
 .desktop {
@@ -284,23 +300,6 @@ td {
     position: relative;
     top: 220px;
 
-}
-
-.mac-disk-drive-border {
-    position: relative;
-    height: 15px;
-    width: 349px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    top: 70px;
-}
-
-.mac-disk-drive {
-    height: 13px;
-    width: 150px;
-    position: relative;
-    background-color: black;
-    left: 155px;
 }
 
 .mug-container {
@@ -539,39 +538,63 @@ td {
     }
     main {
         background-image: url("../img/cubicle.jpg");
-        height: 500px;
+        height: 480px;
     }
     .mac-body {
         position: relative;
-        height: 350px;
-        width: 350px;
-        background-color: #C4C6C1;
-        border-radius: 15px;
-        top: 69px;
-        left: -10px;
-        border: 1px solid #AAACA7;
+        height: 320px;
+        width: 300px;
+        top: 100px;
     }
 
+    .mac-logo h3 {
+        position: absolute;
+        top: 265px;
+        left: 20px;
+    }
     .mac-bottom {
-        position: relative;
         height: 50px;
-        width: 325px;
-        top: 129px;
-        left: 12px;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-        background-color: #AAACA7;
-        border-top: 1px solid #AAACA7;
-        border-left: 1px solid #AAACA7;
-        border-right: 1px solid #AAACA7;
-        border-bottom: 1px solid #AAACA7;
+        width: 280px;
+        top: 98px;
+        left: 10px;
+    }
+
+    .mac-screen-border {
+        position: relative;
+        height: 205px;
+        width: 275px;
+        border: 1px solid #B0B1AC;
+        border-radius: 20px;
+        top: 30px;
+        left: 10px;
+    }
+
+    .mac-screen {
+        position: relative;
+        height: 180px;
+        width: 250px;
+        top:10px;
+        left: 10px;
+    }
+
+    .mac-disk-drive-border {
+        height: 15px;
+        width: 300px;
+        top: 50px;
+    }
+
+    .mac-disk-drive {
+        height: 13px;
+        width: 120px;
+        position: relative;
+        left: 135px;
     }
     .cube-table {
         background-image: url("../img/formica.jpg");
         height: 30px;
         width:100%;
         position: relative;
-        top: 120px;
+        top: 150px;
 
     }
 
@@ -626,11 +649,56 @@ td {
         position: relative;
         height: 350px;
         width: 350px;
-        background-color: #C4C6C1;
-        border-radius: 15px;
-        top: 69px;
-        left: 0;
-        border: 1px solid #AAACA7;
+        top: 80px;
+    }
+
+    .mac-logo h3 {
+        position: absolute;
+        top: 285px;
+        left: 20px;
+    }
+    .mac-bottom {
+        position: relative;
+        height: 50px;
+        width: 325px;
+        top: 129px;
+        left: 12px;
+    }
+
+    .mac-screen-border {
+        position: relative;
+        height: 205px;
+        width: 275px;
+        top: 40px;
+        left: 35px;
+    }
+
+    .mac-screen {
+        position: relative;
+        height: 180px;
+        width: 250px;
+        top:10px;
+        left: 10px;
+    }
+
+    .mac-disk-drive-border {
+        position: relative;
+        height: 15px;
+        width: 349px;
+        top: 70px;
+    }
+
+    .mac-disk-drive {
+        height: 13px;
+        width: 150px;
+        position: relative;
+        left: 155px;
+    }
+    .cube-table {
+        height: 30px;
+        width:100%;
+        position: relative;
+        top: 120px;
     }
 
 }
