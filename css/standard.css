@@ -50,8 +50,8 @@ h4 {
 }
 
 .project-box{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border: 1px solid black;
 }
 
@@ -482,6 +482,11 @@ td {
 
 #simon {
     background-image: url("../img/simon-prog.jpg");
+    background-size: cover;
+}
+
+#tictactoe {
+    background-image: url("../img/tic-prog.jpg");
     background-size: cover;
 }
 
