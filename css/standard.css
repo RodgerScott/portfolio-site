@@ -538,7 +538,7 @@ td {
     visibility: hidden;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 200px) {
     .nav-name {
         text-align: center;
     }
@@ -550,12 +550,14 @@ td {
     main {
         background-image: url("../img/cubicle.jpg");
         height: 480px;
+        width: 100%;
     }
     .mac-body {
         position: relative;
         height: 320px;
         width: 300px;
         top: 100px;
+        right: 20px;
     }
 
     .mac-logo h3 {
@@ -567,7 +569,7 @@ td {
         height: 50px;
         width: 280px;
         top: 98px;
-        left: 10px;
+        right: 10px;
     }
 
     .mac-screen-border {
@@ -647,6 +649,17 @@ td {
 
 }
 
+@media screen and (min-width: 340px) {
+    .mac-body {
+        right: 0px;
+
+    }
+    .mac-bottom {
+        right: 0px;
+
+    }
+}
+
 @media screen and (min-width: 375px) {
     .nav-name {
         text-align: center;
@@ -661,6 +674,7 @@ td {
         height: 350px;
         width: 350px;
         top: 80px;
+        right: 20px;
     }
 
     .mac-logo h3 {
@@ -712,6 +726,18 @@ td {
         top: 120px;
     }
 
+}
+
+
+@media screen and (min-width: 400px) {
+    .mac-body {
+        right: 0px;
+
+    }
+    .mac-bottom {
+        right: 0px;
+
+    }
 }
 
 @media screen and (min-width: 768px) {
