@@ -490,6 +490,11 @@ td {
     background-size: cover;
 }
 
+#weatherapp {
+    background-image: url("../img/weather-prog.png");
+    background-size: cover;
+}
+
 .project-container {
     height: 250px;
     width: 300px;
