@@ -105,12 +105,7 @@ main {
 }
 
 .parallax {
-    background-image: url("../img/office-back.jpeg");
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #DEDDE2;
 }
 
 .light-beige-background {
