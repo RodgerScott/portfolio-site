@@ -1,9 +1,9 @@
 a:visited {
-    color: #7C4518;
+    color: black;
 }
 
 a:link {
-    color: #7C4518;
+    color: black;
 }
 
 #name {
@@ -56,7 +56,7 @@ h4 {
 }
 
 body {
-    color: #7C4518;
+    color: black;
 }
 
 .contact-list {
@@ -104,7 +104,7 @@ main {
 }
 
 .parallax {
-    background-image: url("../img/office-background.png");
+    background-image: url("../img/office-back.jpeg");
     height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -113,11 +113,11 @@ main {
 }
 
 .light-beige-background {
-    background-color: #B2B08B;
+    background-color: #C5C6C2;
 }
 
 .beige-background {
-    background-color: #BDAF8C;
+    background-color: #AAACA7;
 }
 
 .dark-beige-background {
